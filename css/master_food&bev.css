@@ -1,0 +1,33 @@
+.food{
+	border-right: 0.05em solid #000;
+}
+
+.list-item{
+	padding: 10px;
+	list-style-type: none;
+	background-color: yellow;
+	margin-bottom: 2px;
+	margin-top: 2px;
+	border-radius: 5px;
+	position: relative;
+}
+
+.comment{
+	margin-left: 20px;
+	position: absolute;
+	top: 10%;
+	right: 1%;
+	background-color: yellow;
+	padding: 5px;
+	border: 0;
+}
+
+.buy{
+	margin-left: 20px;
+	position: absolute;
+	top: 10%;
+	right: 15%;
+	background-color: yellow;
+	padding: 5px;
+	border: 0;
+}

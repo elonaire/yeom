@@ -1,0 +1,21 @@
+.left2{
+	float: left;
+	position: absolute;
+	right: 190px;
+}
+
+img[src="../_images/wallet.png"]{
+	padding-top: 5px;
+	width: 27px;
+}
+
+img[src="../_images/user.png"]{
+	width: 30px;
+	position: relative;
+	right: 40px;
+	padding-top: 5px;
+}
+
+#lgout:hover{
+	background-color: #f2f200;
+}

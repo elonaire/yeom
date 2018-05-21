@@ -1,0 +1,167 @@
+@import 'nav.css';
+@import 'index.css';
+@import 'footer.css';
+@import 'master_food&bev.css';
+@import 'user_acc.css';
+
+*{
+	margin: 0;
+	text-decoration: none;
+}
+
+.row{  
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.col-12{
+	flex: 100%
+	height: auto;
+	overflow-wrap: normal;
+	padding: 20px;
+}
+
+.col-6{
+	flex: 50%;
+	height: auto;
+	overflow-wrap: normal;
+	padding: 10px;
+}
+
+.col-4{
+	flex: 33.333333333%;
+	height: auto;
+	overflow-wrap: normal;
+	padding: 30px;
+}
+
+.col-3{
+	flex: 25%;
+	height: auto;
+	overflow-wrap: normal;
+	padding: 2.5px;
+}
+
+main{
+	flex: 70%;
+	height: auto;
+	flex-wrap: wrap;
+	overflow-wrap: normal;
+	padding: 20px;
+	float: left;
+}
+
+aside{
+	flex: 30%;
+	height: auto;
+	overflow-wrap: normal;
+	padding: 30px;
+	float: right;
+}
+
+.btn-lg{
+	border: 0;
+	border-radius: 20px;
+	padding: 7px 18px 7px 18px;
+}
+
+.btn-success{
+	border: 0;
+	border-radius: 20px;
+	padding: 7px 18px 7px 18px;
+	background-color: #0c9917;
+	color: #fff;
+}
+
+button:hover{
+	cursor: pointer;
+}
+
+input[type='text'], input[type='password'], input[type='email']{
+	border: 0;
+	border-radius: 5px;
+	padding: 7px;
+	width: 100%;
+	border: 0.1em solid #607de5;
+	margin: 10px 0 10px 0;
+}
+
+textarea{
+	border: 0;
+	border-radius: 5px;
+	padding: 7px;
+	width: 100%;
+	border: 0.1em solid #607de5;
+	margin: 10px 0 10px 0;
+	resize: none;
+}
+
+input[type="submit"]:hover{
+	cursor: pointer;
+}
+
+#login{
+	width: 200px;
+	height: 170px;
+	z-index: 999;
+	background-color: #a2bfa2;
+	padding: 10px;
+	position: absolute;
+	right: 0%;
+	border-radius: 3px;
+}
+
+h1,h2,h3,h4,h5,h6{
+	text-align: center;
+}
+
+.btn-primary{
+	border: 0;
+	border-radius: 20px;
+	padding: 7px 18px 7px 18px;
+	background-color: #2b6fdb;
+	color: #fff;
+} 
+
+.lg{
+	padding: 15px 25px 15px 25px;
+}
+
+img[src="../_images/trolley.png"]{
+	width: 30px;
+}
+
+.btn-lgout{
+	border: 0;
+	border-radius: 20px;
+	padding: 7px 18px 7px 18px;
+}
+
+.message-box{
+	width: 300px;
+	height: auto;
+	padding: 10px;
+	z-index: 999;
+	overflow-wrap: normal;
+	border-radius: 7px;
+	background-color: #47ed49;
+}
+
+.trolley{
+	width: 250px;
+	height: auto;
+	padding: 10px;
+	z-index: 999;
+	background-color: #a2bfa2;
+	border-radius: 5px;
+	position: absolute;
+}
+
+.btn-warning{
+	border: 0;
+	border-radius: 20px;
+	padding: 7px 18px 7px 18px;
+	background-color: orange;
+	color: #fff;
+}

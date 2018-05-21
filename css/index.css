@@ -1,0 +1,13 @@
+#index-body{
+	background-image: url('../_images/pastaveg_640x480.jpg');
+	background-size: cover;
+}
+
+.cafe{
+	background-color: #fff;
+	border-right: 1px solid #000;
+	opacity: 0.7;
+	margin-top: 2px;
+	border-radius: 5px;
+	text-decoration: none;
+}
